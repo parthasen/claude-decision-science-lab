@@ -1,0 +1,35 @@
+name: Feature request
+description: Propose a new skill, a new stage, or a change to how an existing skill behaves.
+labels: ["enhancement"]
+body:
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - dataset-explorer
+        - dslc
+        - new plugin
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: What can't you currently do, or what's clunky about the current flow?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What should the skill do differently, or what should the new skill/stage do? Keep in mind the gated, one-step-at-a-time pattern the other skills follow.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered

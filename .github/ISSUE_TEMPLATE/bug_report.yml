@@ -1,0 +1,49 @@
+name: Bug report
+description: Something in a skill behaved incorrectly or broke.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: plugin
+    attributes:
+      label: Plugin
+      options:
+        - dataset-explorer
+        - dslc
+        - marketplace / install (not skill-specific)
+    validations:
+      required: true
+
+  - type: input
+    id: skill
+    attributes:
+      label: Skill (if applicable)
+      description: e.g. dslc-profile, dslc-model
+      placeholder: dslc-profile
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: What actually happened
+      description: Include the relevant output, error, or a description of the wrong result.
+    validations:
+      required: true
+
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: What you asked Claude, which dataset/shape of data, which stage you were at.
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Plugin version (from plugin.json) or commit SHA
