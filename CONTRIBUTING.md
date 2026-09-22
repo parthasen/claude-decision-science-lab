@@ -1,5 +1,7 @@
 # Contributing
 
+[![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest)
+
 This repo is a Claude Code plugin marketplace (`.claude-plugin/marketplace.json`) with two plugins:
 
 - `plugins/dataset-explorer/` — dataset discovery, briefing, and model proposal
