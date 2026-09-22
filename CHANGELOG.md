@@ -6,6 +6,9 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 
 ## [Unreleased]
 
+### Added
+- `guides/manager-guide.md` — plain-English user guide for non-coders (managers), walking through how to start, what happens at each step, and what deliverables you get, with no jargon.
+
 ## [0.2.0] - 2026-09-22
 
 ### Added
