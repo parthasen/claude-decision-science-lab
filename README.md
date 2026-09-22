@@ -1,5 +1,8 @@
 # LAB
 
+[![Validate](https://github.com/parthasen/claude-decision-science-lab/actions/workflows/validate.yml/badge.svg)](https://github.com/parthasen/claude-decision-science-lab/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 - `skills/dataset-explorer/` — skill: find datasets in a folder → pick → brief → basic stats → similar public datasets → model options → build via DSLC. Install by symlinking or copying into `.claude/skills/` (or a plugin's `skills/`).
 - `guides/decision-science-workflow.md` — one-page map of the whole flow: find data → brief → frame → acquire → profile → prepare → stats/insight → model → explain → report/decide → further analysis, with the skill and gate for each step.
 - `guides/prompt-guide.md` — prompt structure and templates for data work.
