@@ -8,6 +8,7 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 
 ### Added
 - `guides/manager-guide.md` — plain-English user guide for non-coders (managers), walking through how to start, what happens at each step, and what deliverables you get, with no jargon.
+- `guides/free-chat-guide.md` — companion guide for users with only free Claude.ai chat (no Claude Code, no plugin install): copy-paste prompts covering the same workflow manually.
 
 ## [0.2.0] - 2026-09-22
 

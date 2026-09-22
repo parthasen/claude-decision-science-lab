@@ -65,6 +65,10 @@ Everything gets saved in the `outputs/` folder (or inside a project folder under
 
 `projects/perishable-demand-forecast/` is a finished, real run of this whole process — a perishable-goods retail dataset, walked from "what is this data" through to a final report and a model that predicts demand so stores can reorder better before stock expires. Open `projects/perishable-demand-forecast/reports/report.html` in a browser to see what a finished output actually looks like before you start your own.
 
+## Don't have Claude Code — only free Claude.ai chat?
+
+This guide assumes Claude Code, where these skills install and run automatically. If your team only has access to free claude.ai chat, see [`free-chat-guide.md`](free-chat-guide.md) — a lighter, manual version of the same thinking using copy-paste prompts and a direct file upload, no installation needed.
+
 ## If you get stuck
 
 Just say what's confusing, in your own words — "I don't know what to pick here" or "explain that differently" both work. There's also [`guides/decision-science-workflow.md`](decision-science-workflow.md), a more technical one-page map of the same flow, if you ever want to see the mechanics behind it.

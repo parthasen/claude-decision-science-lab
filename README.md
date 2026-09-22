@@ -8,6 +8,7 @@
 
 - `skills/dataset-explorer/` — skill: find datasets in a folder → pick → brief → basic stats → similar public datasets → model options → build via DSLC. Install by symlinking or copying into `.claude/skills/` (or a plugin's `skills/`).
 - `guides/manager-guide.md` — plain-English guide for non-coders: how to start, what happens at each step, what you get, in business terms.
+- `guides/free-chat-guide.md` — for users with only free Claude.ai chat (no Claude Code): copy-paste prompts covering the same thinking manually, no plugin install needed.
 - `guides/decision-science-workflow.md` — one-page map of the whole flow: find data → brief → frame → acquire → profile → prepare → stats/insight → model → explain → report/decide → further analysis, with the skill and gate for each step.
 - `guides/prompt-guide.md` — prompt structure and templates for data work.
 - `guides/llm-selection.md` — Claude vs ChatGPT vs Gemini decision guide.
