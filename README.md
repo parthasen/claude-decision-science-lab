@@ -1,6 +1,7 @@
 # LAB
 
 [![Validate](https://github.com/parthasen/claude-decision-science-lab/actions/workflows/validate.yml/badge.svg)](https://github.com/parthasen/claude-decision-science-lab/actions/workflows/validate.yml)
+[![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 - `skills/dataset-explorer/` — skill: find datasets in a folder → pick → brief → basic stats → similar public datasets → model options → build via DSLC. Install by symlinking or copying into `.claude/skills/` (or a plugin's `skills/`).
