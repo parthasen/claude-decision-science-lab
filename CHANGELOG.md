@@ -7,7 +7,7 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 ### Added
 - `.github/ISSUE_TEMPLATE/` — bug report and feature request forms, plus config.
 
-## 0.1.0 - 2026-09-22
+## [0.1.0] - 2026-09-22
 
 ### Added
 - Initial public release: `dataset-explorer` and `dslc` packaged as installable Claude Code plugins, with a `.claude-plugin/marketplace.json` so they can be installed via `/plugin marketplace add`.
@@ -18,3 +18,6 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 - MIT license.
 - GitHub Actions `validate.yml` — checks plugin/marketplace JSON validity and compiles all Python scripts on every push/PR.
 - `CONTRIBUTING.md`, `CODEOWNERS`, and a pull request template.
+
+[Unreleased]: https://github.com/parthasen/claude-decision-science-lab/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/parthasen/claude-decision-science-lab/releases/tag/v0.1.0
