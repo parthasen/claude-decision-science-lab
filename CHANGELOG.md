@@ -1,5 +1,7 @@
 # Changelog
 
+[![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest)
+
 All notable changes to this repo are documented here. Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/); versions below track the `dataset-explorer` and `dslc` plugins together since they've moved in lockstep so far.
 
 ## [Unreleased]
