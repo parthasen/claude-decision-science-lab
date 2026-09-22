@@ -4,8 +4,15 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 
 ## [Unreleased]
 
+## [0.2.0] - 2026-09-22
+
 ### Added
 - `.github/ISSUE_TEMPLATE/` — bug report and feature request forms, plus config.
+- `CHANGELOG.md`.
+- Latest-release badge in the README.
+
+### Changed
+- Bumped `dataset-explorer` and `dslc` plugin versions (and their marketplace listing) to 0.2.0.
 
 ## [0.1.0] - 2026-09-22
 
@@ -19,5 +26,6 @@ All notable changes to this repo are documented here. Format follows [Keep a Cha
 - GitHub Actions `validate.yml` — checks plugin/marketplace JSON validity and compiles all Python scripts on every push/PR.
 - `CONTRIBUTING.md`, `CODEOWNERS`, and a pull request template.
 
-[Unreleased]: https://github.com/parthasen/claude-decision-science-lab/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/parthasen/claude-decision-science-lab/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/parthasen/claude-decision-science-lab/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/parthasen/claude-decision-science-lab/releases/tag/v0.1.0

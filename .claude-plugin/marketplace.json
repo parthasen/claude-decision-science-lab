@@ -9,13 +9,13 @@
       "name": "dataset-explorer",
       "source": "./plugins/dataset-explorer",
       "description": "Discover, understand and model datasets in a local folder: list files, pick one, write a plain-language brief with stats, find similar public datasets, propose models, then hand off to dslc.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
     {
       "name": "dslc",
       "source": "./plugins/dslc",
       "description": "No-code data science lifecycle: a chat-driven pipeline from business question to statistical analysis, ML models, charts and reports, backed by reproducible Python/R notebooks.",
-      "version": "0.1.0"
+      "version": "0.2.0"
     }
   ]
 }

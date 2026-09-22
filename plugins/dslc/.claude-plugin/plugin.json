@@ -1,6 +1,6 @@
 {
   "name": "dslc",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "No-code data science lifecycle: a chat-driven pipeline from business question to statistical analysis, ML models, charts and reports, backed by reproducible Python/R notebooks.",
   "author": {
     "name": "Partha Sen",

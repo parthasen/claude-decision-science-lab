@@ -1,6 +1,6 @@
 {
   "name": "dataset-explorer",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Discover, understand and model datasets in a local folder: list files, pick one, write a plain-language brief with stats, find similar public datasets, propose models, then hand off to the dslc plugin to build the chosen model.",
   "author": {
     "name": "Partha Sen",
