@@ -36,6 +36,7 @@ Every push and PR runs [`.github/workflows/validate.yml`](.github/workflows/vali
 - Keep PRs scoped to one skill or one clear change — easier to review, easier to revert.
 - Describe what you tested and how (which dataset, which skill, what you saw at each gate).
 - Don't commit real or sensitive data. `outputs/`, `**/data/interim/`, and project `data/`/`models/` folders are gitignored on purpose — leave generated artifacts out of PRs.
+- Check the [![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest) badge — if your change affects plugin behavior, bump the relevant `plugin.json`/`marketplace.json` version and add a CHANGELOG entry rather than relying on the existing tag.
 
 ## License
 
