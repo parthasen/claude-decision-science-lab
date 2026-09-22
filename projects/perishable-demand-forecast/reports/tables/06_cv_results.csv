@@ -1,0 +1,11 @@
+model,cv_wape,cv_sd,cv_bias
+LightGBM L1 (4 leaves),0.4677,0.0084,-0.0419
+LightGBM poisson (8 leaves),0.47,0.0101,0.0219
+LightGBM poisson (4 leaves),0.4707,0.011,0.0283
+article mean (train),0.4713,0.012,0.0329
+Poisson GLM: article,0.4713,0.012,0.0329
+Poisson GLM: article+store,0.4715,0.0118,0.0329
+Poisson GLM: article+lags,0.472,0.0118,0.0341
+baseline: expanding mean,0.4748,0.0096,0.0309
+baseline: 8-week mean,0.4989,0.0082,0.0183
+baseline: last week,0.653,0.0264,0.0075

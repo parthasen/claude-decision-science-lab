@@ -1,0 +1,51 @@
+name: perishable-demand-forecast
+slug: perishable-demand-forecast
+created: '2026-09-20'
+runtime: local
+python: /Users/parthasen/Downloads/DSLC/envs/dslc/bin/python
+kernels:
+  python: dslc
+  r: ir-dslc
+language: python
+random_seed: 42
+context:
+  business_question: How many units of each fresh article will each store sell per
+    week?
+  domain: Fresh produce and dairy retail (synthetic POS data)
+  decision_to_support: Weekly replenishment quantities per store and article
+  stakeholders: null
+  constraints: null
+problem:
+  type: forecasting
+  target: weekly_units
+  unit_of_analysis: store x article x week
+  primary_metric: WAPE
+  success_threshold: null
+data_policy:
+  confidential: false
+  external_enrichment_allowed: false
+stages:
+  01_frame:
+    status: approved
+    approved_on: '2026-09-20'
+  02_acquire:
+    status: skipped
+    approved_on: null
+  03_profile:
+    status: approved
+    approved_on: '2026-09-20'
+  04_prepare:
+    status: approved
+    approved_on: '2026-09-20'
+  05_stats:
+    status: approved
+    approved_on: '2026-09-20'
+  06_model:
+    status: approved
+    approved_on: '2026-09-20'
+  07_explain:
+    status: approved
+    approved_on: '2026-09-20'
+  08_report:
+    status: approved
+    approved_on: '2026-09-20'
