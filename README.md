@@ -14,6 +14,7 @@
 - `projects/perishable-demand-forecast/` — the worked example (copy).
 - `.claude/skills/` — links that register the skills when LAB is opened as the working folder.
 - `perishableRetailStore/` — original raw data (not in git; not needed to run anything).
+- `CHANGELOG.md` [![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest) — version history, tracks tagged releases.
 
 Independent of the repo except for Python packages. From this folder:
 `<python-with-packages> skills/dataset-explorer/scripts/discover.py <your-data-folder>`
