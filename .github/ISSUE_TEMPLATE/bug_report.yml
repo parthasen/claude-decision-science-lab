@@ -2,6 +2,13 @@ name: Bug report
 description: Something in a skill behaved incorrectly or broke.
 labels: ["bug"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        [![Latest release](https://img.shields.io/github/v/release/parthasen/claude-decision-science-lab)](https://github.com/parthasen/claude-decision-science-lab/releases/latest)
+
+        Please check you're on the latest release before filing — the bug may already be fixed.
+
   - type: dropdown
     id: plugin
     attributes:
