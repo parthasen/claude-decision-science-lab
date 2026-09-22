@@ -32,3 +32,5 @@ This repo is also a plugin marketplace (`.claude-plugin/marketplace.json`) expos
 /plugin install dslc
 ```
 No manual copying or symlinking needed — the plugin skills activate automatically once installed.
+
+Maintaining this repo, or setting up your own marketplace the same way? See [`guides/distribute-as-plugins.md`](guides/distribute-as-plugins.md) for the exact steps.
